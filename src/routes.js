@@ -1,8 +1,7 @@
 import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import { HomePage } from './components';
-import { ChallanAllocate, MaskAllocate, TrafficAllocate, TrafficInformation1,TrafficInformation2, CameraInformation, UnsafeAreas, UrbanInformation1,UrbanInformation2 } from './views';
-import RealTimeMask from './views/MaskPoliceAllocation/MaskAllocate';
+import { ChallanAllocate, MaskAllocate, TrafficAllocate, TrafficInformation1,TrafficInformation2, CameraInformation, UnsafeAreas, UrbanInformation1,UrbanInformation2, RealTimeMask } from './views';
 import RealTimeTraffic from './views/RealTimeTraffic/RealTimeTraffic';
 
 export const Routes = () => {
