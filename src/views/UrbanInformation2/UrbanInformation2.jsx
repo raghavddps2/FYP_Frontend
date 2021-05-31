@@ -10,12 +10,12 @@ const UrbanInformation2  = () => {
                 
             <Grid.Row>
                 <Grid.Column width={8}>
-                    <h1 class="ui-header">The Busy areas are the ones that needs better routing.</h1>
+                    <h2 class="ui-header">The Busy areas are the ones that needs better routing.</h2>
                     <ScatterChart/>
                 </Grid.Column>
                 <Grid.Column width={8}>
-                    <h1 class="ui-header">Better view of safe roads/junctions.</h1>
-                    <h1 class="ui-header"> Difference between count of Heavy vehicles and pedestrians.</h1>
+                    <h2 class="ui-header">Better view of safe roads/junctions.</h2>
+                    <h2 class="ui-header"> Difference between count of Heavy vehicles and pedestrians.</h2>
                     <RangeBarChart/>
                 </Grid.Column>
             </Grid.Row>

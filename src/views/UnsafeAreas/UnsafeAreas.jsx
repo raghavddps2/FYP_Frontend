@@ -10,11 +10,11 @@ const UnsafeAreas  = () => {
                 
             <Grid.Row>
                 <Grid.Column width={8}>
-                    <h1 class="ui-header">Unsafe Areas - With respect to heavy vehicle traffic.</h1>
+                    <h2 class="ui-header">Unsafe Areas - With respect to heavy vehicle traffic.</h2>
                     <PolarChart1/>
                 </Grid.Column>
                 <Grid.Column width={8}>
-                    <h1 class="ui-header">Unsafe Areas - With respect to less pedestrains on road.</h1>
+                    <h2 class="ui-header">Unsafe Areas - With respect to less pedestrains on road.</h2>
                     <PolarChart2/>
                 </Grid.Column>
             </Grid.Row>

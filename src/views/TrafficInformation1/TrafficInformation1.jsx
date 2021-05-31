@@ -10,11 +10,11 @@ const TrafficInformation1  = () => {
                 
             <Grid.Row>
                 <Grid.Column width={8}>
-                    <h1 class="ui-header">Historical Data - Traffic Counts</h1>
+                    <h2 class="ui-header">Historical Data - Traffic Counts</h2>
                     <BarChart3 date="2021-01-01" camera="camera1"/>
                 </Grid.Column>
                 <Grid.Column width={8}>
-                    <h1 class="ui-header">Historical Data - Mask Counts</h1>
+                    <h2 class="ui-header">Historical Data - Mask Counts</h2>
                     <BarChart4 date="2021-01-01" camera="camera1"/>
                 </Grid.Column>
             </Grid.Row>

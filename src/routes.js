@@ -2,6 +2,8 @@ import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import { HomePage } from './components';
 import { ChallanAllocate, MaskAllocate, TrafficAllocate, TrafficInformation1,TrafficInformation2, CameraInformation, UnsafeAreas, UrbanInformation1,UrbanInformation2 } from './views';
+import RealTimeMask from './views/MaskPoliceAllocation/MaskAllocate';
+import RealTimeTraffic from './views/RealTimeTraffic/RealTimeTraffic';
 
 export const Routes = () => {
     console.log("Hello")
@@ -18,6 +20,9 @@ export const Routes = () => {
         <Route exact path="/urbanInformation2" component={UrbanInformation2} />
         <Route exact path="/cameraInformation" component={CameraInformation} />
         <Route exact path="/unsafeAreas" component={UnsafeAreas} />
+        <Route exact path="/realTimeTrafficDemo" component={RealTimeTraffic} />
+        <Route exact path="/realTimeMaskDemo" component={RealTimeMask} />
+
       </Switch>
     </div>
   );

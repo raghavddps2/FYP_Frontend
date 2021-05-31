@@ -10,11 +10,11 @@ const ChallanAllocate  = () => {
                 
             <Grid.Row>
                 <Grid.Column width={8}>
-                    <h1 class="ui-header">Challan Form</h1>
+                    <h2 class="ui-header">Challan Form</h2>
                     <ChallanForm/>
                 </Grid.Column>
                 <Grid.Column width={8}>
-                    <h1 class="ui-header">Number Plate Identification System</h1>
+                    <h2 class="ui-header">Number Plate Identification System</h2>
                     <ProcessImage/>
                 </Grid.Column>
             </Grid.Row>

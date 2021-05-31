@@ -7,3 +7,5 @@ export {default as UrbanInformation1} from "./UrbanInformation1/UrbanInformation
 export {default as UrbanInformation2} from "./UrbanInformation2/UrbanInformation2"
 export {default as CameraInformation} from "./CameraInformation/CameraInformation"
 export {default as UnsafeAreas} from "./UnsafeAreas/UnsafeAreas"
+export {default as RealTimeMask} from "./RealTimeMask/RealTimeMask"
+export {default as RealTimeTraffic} from "./RealTimeTraffic/RealTimeTraffic"

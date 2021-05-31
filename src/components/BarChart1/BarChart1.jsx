@@ -64,6 +64,13 @@ const BarChart1 = ({name}) => {
                     xaxis: {
                         categories: data2.camera_locs
                     }},
+                    title: {
+                        text: 'Traffic Police Allocation Areas',
+                        align: 'center',
+                        style: {
+                            fontSize: '18px'
+                        }
+                    },
                     
                     series:[
                     {

@@ -18,10 +18,11 @@ const CameraList = () => {
     },[setCameraData])
 
     return (
-        data == false ? <center><Loader
+        data == false ? <center><Loader className="loader"
         type="Puff"
         color="#00BFFF"
-        height={100}
+        width={200}
+        height={200}
     /></center> :
         cameraData.map((camera)=>{
             return (

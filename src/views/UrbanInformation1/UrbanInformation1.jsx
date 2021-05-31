@@ -10,11 +10,11 @@ const UrbanInformation1  = () => {
                 
             <Grid.Row>
                 <Grid.Column width={8}>
-                    <h1 class="ui-header">Areas with Maximum Heavy Vehicle Traffic</h1>
+                    <h2 class="ui-header">Areas with Maximum Heavy Vehicle Traffic</h2>
                     <BarChart5/>
                 </Grid.Column>
                 <Grid.Column width={8}>
-                    <h1 class="ui-header">Areas with Minimum Pedestrian Traffic.</h1>
+                    <h2 class="ui-header">Areas with Minimum Pedestrian Traffic.</h2>
                     <BarChart6/>
                 </Grid.Column>
             </Grid.Row>
